@@ -36,7 +36,6 @@ public class P_011 {
 
   public static void main(String[] args) {
     long largest = 0;
-    long candiate = 0;
     for(String s : input){
       grid.add(Arrays.asList(s.split(" ")).parallelStream().map(Integer::valueOf).collect(Collectors.toList()));
     }
