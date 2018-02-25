@@ -1,5 +1,3 @@
-import java.util.stream.IntStream;
-
 /**
  * Project Euler, Problem 010
  *
