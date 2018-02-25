@@ -10,19 +10,10 @@ public class P_007 {
     long n = 1;
     while(i < 10001){
       n++;
-      if(isPrime(n)){
+      if(Util.isPrime(n)){
         i++;
       }
     }
     System.out.println(n);
-  }
-
-  static boolean isPrime(long n){
-    for(long i = 2; i <= n/2 ; i++){
-      if(n % i == 0){
-        return false;
-      }
-    }
-    return true;
   }
 }
